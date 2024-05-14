@@ -1,0 +1,52 @@
+.container{
+    padding: 50px 10%;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+table tr{
+    border-bottom: 1px solid black;
+    background-color: rgb(20, 100, 147);
+    color: white;
+}
+table tr th, table tr td{
+    padding: 5px;
+}
+table td button{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(17, 73, 105);
+    color: white;
+    cursor: pointer;
+}
+.form-div{
+    padding: 10px;
+}
+.form-div form input{
+    width: 43.5%;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 30px;
+}
+.form-div form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: 5px;
+    margin-left: 45%;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    margin-bottom: 20px;
+}
